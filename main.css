@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background: #232323;
+    height: 100vh;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    margin: 1.66%;
+}
+
+.container {
+    display: flex;
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    flex-flow: wrap;
+}
+
+h1 {
+    color: white;
+}
+
+span {
+    color: white;
+}
